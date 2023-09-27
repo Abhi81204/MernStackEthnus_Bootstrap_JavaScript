@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS TASK 2</title>
+  </head>
+  <body>
+    <script>
+      function Order(word) {
+        split = word.split("");
+        sort = split.sort();
+        final = sort.join("");
+        return final;
+      }
+      const word = "webmaster";
+      const result = Order(word);
+      console.log("Example string : " + word);
+      console.log("Expected Output : " + result);
+    </script>
+    <h2>For viewing the code, Please follow the below steps :</h2>
+    <ol>
+      <li>Right click on the screen.</li>
+      <li>Go to view page source to view the code</li>
+    </ol>
+    <h2>For viewing the output, Please follow the below steps :</h2>
+    <ol>
+      <li>Right click on the screen.</li>
+      <li>Go to inspect</li>
+      <li>Click on the console.</li>
+    </ol>
+  </body>
+</html>
